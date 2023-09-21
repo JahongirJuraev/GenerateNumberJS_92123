@@ -2,7 +2,7 @@ let number = document.getElementById('number');
 let button = document.getElementById('generateBtn');
 
 const randomGenerateNumber = () =>{
-    let generateNumber = Math.floor(Math.random() * 14 + 1)
+    let generateNumber = Math.floor(Math.random() * 100 + 1)
     number.textContent = generateNumber;
     
     if(generateNumber == 13){
